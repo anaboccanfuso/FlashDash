@@ -1,0 +1,124 @@
+{
+  "id": "19475c35-1bf9-4318-9f30-112e0bb4afa8",
+  "version": "2.0",
+  "name": "CreateAccountTest_BehavioralTesting",
+  "url": "https://flashdash.app/",
+  "tests": [{
+    "id": "e8afdb7b-1f95-42b4-9d17-376d4e908ac8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7ac9fbe3-6e8f-4d3e-8fa8-14045e24add1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e1ab901-0adb-4ef0-8f05-470698772b63",
+      "comment": "",
+      "command": "type",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Test"
+    }, {
+      "id": "86eb6926-d503-4722-99ba-1da50a574f24",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "9673275b-9dc5-42bc-a3a7-fac3dab6ee5f",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-6krrdx",
+      "targets": [
+        ["css=.css-6krrdx", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "University of South Carolina"
+    }, {
+      "id": "2902d23c-b34d-4c12-9f12-c7b7fde5f666",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.css-6krrdx",
+      "targets": [
+        ["css=.css-6krrdx", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "fff13797-9743-4b47-99b5-a2d5a5db5f5c",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-vut890",
+      "targets": [
+        ["css=.css-vut890", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "CSCE 492"
+    }, {
+      "id": "1c530569-4229-4820-8f73-4d4694ba43ac",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.css-vut890",
+      "targets": [
+        ["css=.css-vut890", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[2]/input", "xpath:idRelative"],
+        ["xpath=//span[2]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "d437990d-b22f-4afc-94c0-3f25338112f4",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gq9q96",
+      "targets": [
+        ["css=.css-gq9q96", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "Capstone Computing"
+    }, {
+      "id": "f1cff61b-6c97-4579-871d-a65506829101",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.css-gq9q96",
+      "targets": [
+        ["css=.css-gq9q96", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "17347b3d-39cd-4512-8add-afa2fcf7b801",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8afdb7b-1f95-42b4-9d17-376d4e908ac8"]
+  }],
+  "urls": ["https://youtube.com/", "https://flashdash.app/Appstone", "https://flashdash.app/"],
+  "plugins": []
+}

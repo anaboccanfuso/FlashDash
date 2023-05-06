@@ -1,0 +1,119 @@
+{
+  "id": "19475c35-1bf9-4318-9f30-112e0bb4afa8",
+  "version": "2.0",
+  "name": "CreateAccountTest_BehavioralTesting",
+  "url": "https://flashdash.app/",
+  "tests": [{
+    "id": "e8afdb7b-1f95-42b4-9d17-376d4e908ac8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8f885a5f-b81d-4cd6-95bc-f42997305638",
+      "comment": "",
+      "command": "open",
+      "target": "https://flashdash.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fbe89d8-76ce-467c-aac4-338a2da2ece6",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [],
+      "value": "testing set"
+    }, {
+      "id": "abac50f4-5311-4935-8bae-0f92549f29b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "126b299e-7404-46c8-8424-c52db6dca9be",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-6krrdx",
+      "targets": [
+        ["css=.css-6krrdx", "css:finder"],
+        ["xpath=(//input[@type='text'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "University of South Carolina"
+    }, {
+      "id": "8d4a3064-ec32-497d-ab64-3141ae67cc6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1x115wa",
+      "targets": [
+        ["css=.css-1x115wa", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6b7d9a2-30da-4ced-880b-6c7202a685e3",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-1xinsak",
+      "targets": [
+        ["css=.css-1xinsak", "css:finder"],
+        ["xpath=(//input[@type='text'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[3]/input", "xpath:idRelative"],
+        ["xpath=//span[3]/input", "xpath:position"]
+      ],
+      "value": "allie"
+    }, {
+      "id": "7b271b31-236c-4b18-b258-58652c8dd601",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-dn3rgn",
+      "targets": [
+        ["css=.css-dn3rgn", "css:finder"],
+        ["xpath=(//button[@type='button'])[6]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[3]/button", "xpath:idRelative"],
+        ["xpath=//span[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "81b78447-23ba-4cb5-9b9e-d534d3ba0c98",
+      "comment": "",
+      "command": "type",
+      "target": "css=.css-gq9q96",
+      "targets": [
+        ["css=.css-gq9q96", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[4]/input", "xpath:idRelative"],
+        ["xpath=//span[4]/input", "xpath:position"]
+      ],
+      "value": "CSCE"
+    }, {
+      "id": "98b23505-9075-4353-ad5f-bc6368ca5849",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-rbw1w",
+      "targets": [
+        ["css=.css-rbw1w", "css:finder"],
+        ["xpath=(//button[@type='button'])[7]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/span[4]/button", "xpath:idRelative"],
+        ["xpath=//span[4]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17347b3d-39cd-4512-8add-afa2fcf7b801",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8afdb7b-1f95-42b4-9d17-376d4e908ac8"]
+  }],
+  "urls": ["https://youtube.com/", "https://flashdash.app/Appstone", "https://flashdash.app/"],
+  "plugins": []
+}

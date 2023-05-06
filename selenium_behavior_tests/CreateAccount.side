@@ -1,0 +1,106 @@
+{
+  "id": "19475c35-1bf9-4318-9f30-112e0bb4afa8",
+  "version": "2.0",
+  "name": "CreateAccountTest_BehavioralTesting",
+  "url": "https://flashdash.app/",
+  "tests": [{
+    "id": "e8afdb7b-1f95-42b4-9d17-376d4e908ac8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8f885a5f-b81d-4cd6-95bc-f42997305638",
+      "comment": "",
+      "command": "open",
+      "target": "https://flashdash.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4309b203-17d2-4b30-8601-c63a9217be07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-11jg6vw",
+      "targets": [
+        ["css=.css-11jg6vw", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Join Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "654e1d0b-13d2-4885-9576-93468a3fa4d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-:r0:",
+      "targets": [
+        ["id=field-:r0:", "id"],
+        ["css=#field-\\3Ar0\\3A", "css:finder"],
+        ["xpath=//input[@id='field-:r0:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test@email.com"
+    }, {
+      "id": "3b656c16-76f5-4dab-a76b-edaf89390726",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-:r1:",
+      "targets": [
+        ["id=field-:r1:", "id"],
+        ["css=#field-\\3Ar1\\3A", "css:finder"],
+        ["xpath=//input[@id='field-:r1:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[3]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/input", "xpath:position"]
+      ],
+      "value": "test_username"
+    }, {
+      "id": "bf10de6d-5428-4326-b98c-0654b38d3bab",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-:r2:",
+      "targets": [
+        ["id=field-:r2:", "id"],
+        ["css=#field-\\3Ar2\\3A", "css:finder"],
+        ["xpath=//input[@id='field-:r2:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[4]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/input", "xpath:position"]
+      ],
+      "value": "test_name"
+    }, {
+      "id": "1084bca5-44c3-48ac-a7fb-15bb3de6813a",
+      "comment": "",
+      "command": "type",
+      "target": "id=field-:r3:",
+      "targets": [
+        ["id=field-:r3:", "id"],
+        ["css=#field-\\3Ar3\\3A", "css:finder"],
+        ["xpath=//input[@id='field-:r3:']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[5]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "test_pass"
+    }, {
+      "id": "c056ecd3-37b8-45f2-933b-4f58491bdf07",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-lq3dt3",
+      "targets": [
+        ["css=.css-lq3dt3", "css:finder"],
+        ["xpath=(//button[@type='button'])[5]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div[8]/button", "xpath:idRelative"],
+        ["xpath=//div[8]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Create Account')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17347b3d-39cd-4512-8add-afa2fcf7b801",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8afdb7b-1f95-42b4-9d17-376d4e908ac8"]
+  }],
+  "urls": ["https://youtube.com/", "https://flashdash.app/Appstone", "https://flashdash.app/"],
+  "plugins": []
+}

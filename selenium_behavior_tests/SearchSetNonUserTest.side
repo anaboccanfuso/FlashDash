@@ -1,0 +1,47 @@
+{
+  "id": "19475c35-1bf9-4318-9f30-112e0bb4afa8",
+  "version": "2.0",
+  "name": "CreateAccountTest_BehavioralTesting",
+  "url": "https://flashdash.app/",
+  "tests": [{
+    "id": "e8afdb7b-1f95-42b4-9d17-376d4e908ac8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "8f885a5f-b81d-4cd6-95bc-f42997305638",
+      "comment": "",
+      "command": "open",
+      "target": "https://flashdash.app/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fbe89d8-76ce-467c-aac4-338a2da2ece6",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [],
+      "value": "testing set"
+    }, {
+      "id": "abac50f4-5311-4935-8bae-0f92549f29b3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }]
+  }],
+  "suites": [{
+    "id": "17347b3d-39cd-4512-8add-afa2fcf7b801",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8afdb7b-1f95-42b4-9d17-376d4e908ac8"]
+  }],
+  "urls": ["https://youtube.com/", "https://flashdash.app/Appstone", "https://flashdash.app/"],
+  "plugins": []
+}

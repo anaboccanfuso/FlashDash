@@ -1,0 +1,99 @@
+{
+  "id": "19475c35-1bf9-4318-9f30-112e0bb4afa8",
+  "version": "2.0",
+  "name": "CreateAccountTest_BehavioralTesting",
+  "url": "https://flashdash.app/",
+  "tests": [{
+    "id": "e8afdb7b-1f95-42b4-9d17-376d4e908ac8",
+    "name": "Untitled",
+    "commands": [{
+      "id": "7ac9fbe3-6e8f-4d3e-8fa8-14045e24add1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e1ab901-0adb-4ef0-8f05-470698772b63",
+      "comment": "",
+      "command": "type",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "test quiz"
+    }, {
+      "id": "f1cff61b-6c97-4579-871d-a65506829101",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=.chakra-input",
+      "targets": [
+        ["css=.chakra-input", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "be3ac3e9-15b5-4a18-be2f-0fe80b7664fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1iupq0q",
+      "targets": [
+        ["css=.css-1iupq0q", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/button/div", "xpath:idRelative"],
+        ["xpath=//button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a45febc0-9cce-498e-865d-0a725b4b14aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-d9q9mh:nth-child(1)",
+      "targets": [
+        ["css=.css-d9q9mh:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='button'])[13]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Flashcards')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "78f816b1-2cbd-483e-830c-de765aa4fd31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-nmg2wj",
+      "targets": [
+        ["css=.css-nmg2wj", "css:finder"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d896848c-db1d-4508-a949-5dd7bd0030f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.css-1j8qhqc",
+      "targets": [
+        ["css=.css-1j8qhqc", "css:finder"],
+        ["xpath=(//button[@type='button'])[11]", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/div[2]/div[2]/div[3]/button", "xpath:idRelative"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "17347b3d-39cd-4512-8add-afa2fcf7b801",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8afdb7b-1f95-42b4-9d17-376d4e908ac8"]
+  }],
+  "urls": ["https://youtube.com/", "https://flashdash.app/Appstone", "https://flashdash.app/"],
+  "plugins": []
+}
