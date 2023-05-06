@@ -1,0 +1,25 @@
+{
+  "name": "Appstone",
+  "version": "0.1.0",
+  "homepage": "https://flashdash.app",
+  "proxy": "http://localhost:3000/frontend",
+  "private": true,
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "netlify deploy --prod",
+    "start": "react-scripts frontend/start",
+    "build": "react-scripts frontend/build"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^13.4.0",
+    "enzyme": "^3.11.0",
+    "gh-pages": "^4.0.0",
+    "netlify-cli": "^2.37.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.21.0",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.2",
+    "react-select-search": "^4.1.6"
+  }
+}
