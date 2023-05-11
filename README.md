@@ -1,7 +1,7 @@
 # Appstone: FlashDash WebApp
-_**Access the deployed application [here](https://flashdash.app/)**_
+_**Application is not currently deployed**_
 
-The FlashDash application is an online study application where users can create, search, and study from sets of terms. User can view sets other users created, edit their own sets, and test with all sets using flashcards or a quiz mode. See our goals and platform for this project here: https://github.com/SCCapstone/Appstone/wiki/Project-Description
+The FlashDash application is an online study application where users can create, search, and study from sets of terms. User can view sets other users created, edit their own sets, and test with all sets using flashcards or a quiz mode. 
 
 ### Instructions to Install and Run Web Application
 Clone Appstone repository to personal computer by running this in your terminal: `git clone https://github.com/SCCapstone/Appstone.git`  
@@ -118,6 +118,5 @@ JavaScript: https://google.github.io/styleguide/jsguide.html
 
 Ana Boccanfuso: boccanfa@email.sc.edu  
 Allie Scott: abs25@email.sc.edu   
-Lareb Khan: lskhan@email.sc.edu  
-Hadley Blalock: hblalock@email.sc.edu   
+Lareb Khan: lskhan@email.sc.edu 
 David Duggan: dwduggan@email.sc.edu
